@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height:42px ;
+
+}
+#navbar{
+    background-color: #d43b3b;
+    font-family: 'Yeon Sung';
+    padding: 13px, 24px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    font-size: 33px;
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    color: black;  
+}
+#introSection{
+    padding-bottom: 130px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/s.jpg") ;
+    height: 425px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#missionSection{
+    height: 331px;
+    width: 67%;
+    margin: auto;
+ }
+#missionSection h2{
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top:12px ;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 27%;
+    margin:23px 20px;
+    height: 208px;
+}
+.card h3{
+    text-align:center;
+    margin: 12px;
+    margin-top: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 1px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+.card-content{
+    padding: 0px 10px;
+}
+.card-content p{
+    font-size: 19px;
+}
+#sponsorsSection{
+    height:250px;
+    background-color: #fbd6d6c7;
+}
+#sponsorsSection h2{
+    font: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top:3px:
+    margin-top: 23px;
+}
+#sponsors{
+    height: 163px;
+    max-width:1000px;
+    margin: -99px auto;
+}
+.spImage{
+    height: 50%;
+    margin: 88px;
+    justify-content: center;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 230, 230);
+    height: 60px;
+    font-size: 20px;
+
+}
